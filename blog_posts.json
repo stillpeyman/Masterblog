@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "author": "India",
+        "title": "my fave uncle :)",
+        "content": "I LOVE UNCLE PEPE SO MUCH! <3",
+        "likes": 18
+    },
+    {
+        "id": 2,
+        "author": "Peyman",
+        "title": "Here comes the Sun ...",
+        "content": "Everybody loves the Sunshine!",
+        "likes": 3
+    }
+]

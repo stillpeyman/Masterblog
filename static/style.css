@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.post {
+    background-color: #FFF;
+    border: 1.5px solid #EEE;
+    padding: 28px 28px 20px 28px;
+    margin-bottom: 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    transition: box-shadow 0.2s;
+}
+
+.post:hover {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+.post h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+.post p {
+    margin: 10px 0;
+    font-size: 1.15rem;
+}
+
+.post em {
+    color: #888;
+    font-size: 1rem;
+}
+
+.post .post-content {
+    /* More space below content */
+    margin-bottom: 28px;
+}
+
+/* Only apply these styles to forms with a class (e.g., .main-form) */
+.main-form {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.main-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.main-form input,
+.main-form textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Allows the user to resize the textarea vertically */
+.main-form textarea {
+    resize: vertical;
+}
+
+.main-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-form button:hover {
+    background-color: #45a049;
+}
+
+.main-form a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+.main-form a:hover {
+    text-decoration: underline;
+}
+
+/* Style for Like button */
+.like-container {
+    display: flex;
+    align-items: center;
+    /* space between button and count */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.like-container form {
+    margin: 0;
+}
+
+.like-button {
+    background-color: #FF69B4;
+    color: white;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 8px rgba(255,105,180,0.12);
+}
+
+.like-button:hover {
+    background-color: #FF1493;
+}
+
+.like-button:focus {
+    /* Keeps accessibility focus visible */
+    outline: 2px solid #FF69B4;
+}
+
+.thumbs-up-icon {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.like-count {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    font-weight: 500;
+}
+
+.post-actions {
+    display: flex;
+    gap: 18px;
+    margin-top: 8px;
+}
+
+.post-actions a {
+    font-size: 0.97rem;
+    color: #4F4F4F;
+    text-decoration: none;
+    border-bottom: 1px dotted #FF69B4;
+    transition: color 0.2s, border-bottom 0.2s;
+    opacity: 0.85;
+}
+
+.post-actions a:hover {
+    color: #FF69B4;
+    border-bottom: 1px solid #FF69B4;
+    opacity: 1;
+}
